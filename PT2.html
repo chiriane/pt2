@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Grading Program</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="pete2.css">
+</head>
+<body>
+    <div class="header">
+        <h1>CHERRY ANNE DUCLAYAN<br> ICT 11-C <br>PERFORMANCE TASK 2  <br>  3rd Quarter </h1>
+    </div>
+    <div class="container">
+        <script type="text/javascript">
+            var a, b, c, d, e, f, g, h, i, j, sum;
+
+            a = parseFloat(prompt("Please enter first number", 0));
+            b = parseFloat(prompt("Please enter second number", 0));
+            c = parseFloat(prompt("Please enter third number", 0));
+            d = parseFloat(prompt("Please enter fourth number", 0));
+            e = parseFloat(prompt("Please enter fifth number", 0));
+            f = parseFloat(prompt("Please enter sixth number", 0));
+            g = parseFloat(prompt("Please enter seventh number", 0));
+            h = parseFloat(prompt("Please enter eighth number", 0)); 
+            i = parseFloat(prompt("Please enter ninth number", 0));
+            j = parseFloat(prompt("Please enter tenth number", 0));
+          
+            sum = a + b + c + d + e + f + g + h + i + j;
+            var message = 'hahaha';
+
+            // Check if the first number is a valid integer
+            if (!isNaN(a)) {
+                message += a + ' is ' + (a % 2 === 0 ? 'even' : 'odd') + '.<br>';
+            }
+
+            // Check if the second number is a valid integer
+            if (!isNaN(b)) {
+                message += b + ' is ' + (b % 2 === 0 ? 'even' : 'odd') + '.<br>';
+            }
+
+            // Check if the third number is a valid integer
+            if (!isNaN(c)) {
+                message += c + ' is ' + (c % 2 === 0 ? 'even' : 'odd') + '.<br>';
+            }
+            
+            // Check if the fourth number is a valid integer
+            if (!isNaN(d)) {
+                message += d + ' is ' + (d % 2 === 0 ? 'even' : 'odd') + '.<br>';
+            }
+
+            // Check if the fifth number is a valid integer
+            if (!isNaN(e)) {
+                message += e + ' is ' + (e % 2 === 0 ? 'even' : 'odd') + '.<br>';
+            }
+
+            // Check if the sixth number is a valid integer
+            if (!isNaN(f)) {
+                message += f + ' is ' + (f % 2 === 0 ? 'even' : 'odd') + '.<br>';
+            }
+
+            // Check if the seventh number is a valid integer
+            if (!isNaN(g)) {
+                message += g + ' is ' + (g % 2 === 0 ? 'even' : 'odd') + '.<br>';
+            }
+
+            // Check if the eighth number is a valid integer
+            if (!isNaN(h)) {
+                message += h + ' is ' + (h % 2 === 0 ? 'even' : 'odd') + '.<br>';
+            }
+
+            // Check if the ninth number is a valid integer
+            if (!isNaN(i)) {
+                message += i + ' is ' + (i % 2 === 0 ? 'even' : 'odd') + '.<br>';
+            }
+
+            // Check if the tenth number is a valid integer
+            if (!isNaN(j)) {
+                message += j + ' is ' + (j % 2 === 0 ? 'even' : 'odd') + '.<br>';
+            }
+
+            // Display the results
+            document.write("<h1>" + message + "</h1>");
+            document.write("<div id='sum'>Sum of all numbers: " + sum + "</div>");
+        </script>
+    </div>
+</body>
+</html>
